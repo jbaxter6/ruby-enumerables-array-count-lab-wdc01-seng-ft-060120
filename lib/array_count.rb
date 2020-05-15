@@ -3,7 +3,9 @@ def count_strings(array)
   
   array.count do |str| 
   
-      array.count.class == str ==
+      if array.count.class == String
+        
+        str
     
   end
   
